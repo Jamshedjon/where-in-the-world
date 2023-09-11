@@ -84,3 +84,13 @@ form.addEventListener("input", function (e) {
     closeAllLists(e.target);
   });
 });
+// scroll btn
+
+const scrollBtn = document.getElementById("scroll-btn");
+document.addEventListener("scroll", () => {
+  if (window.scrollY) {
+    scrollBtn.classList.remove("hidden");
+  } else {
+    scrollBtn.classList.add("hidden");
+  }
+});

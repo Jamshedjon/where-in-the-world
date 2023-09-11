@@ -304,6 +304,19 @@ svg path {
     background-color: transparent;
   }
 }
+/* scroll button */
+#scroll-btn {
+  padding: 13px 16.5px;
+  color: var(--primary-black);
+  border-radius: 50%;
+  background-color: var(--site-bg-color);
+  position: fixed;
+  bottom: 10%;
+  right: 10%;
+  border: 2px solid var(--primary-black);
+  transform: scale(1.5);
+  transition: 0.5s ease;
+}
 
 .hidden {
   display: none !important;
