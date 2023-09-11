@@ -78,9 +78,7 @@ a {
   color: var(--primary-text-color);
   transition: 0.3s ease;
 }
-a:hover {
-  color: var(--search-color);
-}
+
 ul,
 ol {
   list-style: none;
@@ -299,7 +297,7 @@ svg path {
   0% {
     background-color: var(--primary-black);
   }
-
+  
   100% {
     background-color: transparent;
   }
@@ -460,7 +458,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
+  
   max-width: 26.4rem;
   height: 16rem;
   border-radius: 5px;
@@ -507,7 +505,7 @@ main {
   gap: 1rem;
   padding: 1rem 3.9rem 1rem 3.2rem;
   background: var(--primary-white);
-
+  
   font-size: 1.6rem;
   font-weight: 300;
   border-radius: 6px;
@@ -651,7 +649,7 @@ main {
     max-width: 320px;
     height: 229px;
   }
-
+  
   .about-section {
     flex-direction: column;
     align-items: center;
@@ -727,4 +725,10 @@ main {
 }
 .go-quiz svg path{
   fill: var(--primary-white);
+}
+@media screen and (max-width: 835px) {
+  .go-quiz{
+    width: 100%;
+    padding: 1rem  1.2rem;
+  }
 }
